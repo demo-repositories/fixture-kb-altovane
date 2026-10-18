@@ -1,28 +1,26 @@
 {
   "actionIds": [
-    "action:eca3738bd68a7dd09641",
-    "action:0e37b4826f6bc1ae57d3",
-    "action:659ced5e34c655794aa6",
+    "action:054428bbde34d5c0dcd8",
     "action:d7d6edb518675ecedb34",
     "action:a69ad916937f4560a95d",
     "action:f9c0663309f473184b84",
-    "action:6bc6f691671f0bb5e49c",
-    "action:c5aaabe00080eef63863",
-    "action:e9c1875744a9a472a5c7",
-    "action:4d79e271658817e053c5",
-    "action:d882ca2b9f68a4ae8ed1",
-    "action:5333ee0f2b80d711b01a",
-    "action:f70bcc33c5125d03f4d1",
+    "action:a6ee96dafcd52422108c",
+    "action:feafc46230fa0214cbfa",
+    "action:5c69a864a545e4c0eab4",
+    "action:e290f2964900be11c9da",
+    "action:c5637144055b663b1b44",
+    "action:fc29d30f7fbedc8a346c",
+    "action:6ab58d7a65fdf776f7c2",
     "action:08ca076922c1887f9aad",
     "action:7634a1f7888a049ff09e"
   ],
-  "attestationId": "attestation:c6f8c254868dd675fa1a",
-  "baselineDigest": "7294331187cb53f850693286632443ec38c5466c9f098cbfd34bae77d2b99074",
-  "baselineVersion": "2026.10.16.8",
+  "attestationId": "attestation:d042feef4d7f2a69425e",
+  "baselineDigest": "bb39bea4727794b8db75f8fc91996b19c12958f5564d716b8650bbc2ba61a972",
+  "baselineVersion": "2026.10.16.9",
   "binding": {
     "defaultBranch": "main",
-    "defaultHeadSha": "8afb29430119325de39153d6b89d45f4894d4f36",
-    "normalizationHeadSha": "8afb29430119325de39153d6b89d45f4894d4f36",
+    "defaultHeadSha": "b5e55c97d8bc3575048dd41d2cfd2215f4e7041b",
+    "normalizationHeadSha": "b5e55c97d8bc3575048dd41d2cfd2215f4e7041b",
     "repository": "demo-repositories/fixture-kb-altovane"
   },
   "canonicalSurfaces": {
@@ -49,10 +47,11 @@
       "keys": [
         "SANITY_STUDIO_APP_ID",
         "SANITY_STUDIO_DATASET",
-        "SANITY_STUDIO_PROJECT_ID"
+        "SANITY_STUDIO_PROJECT_ID",
+        "SANITY_STUDIO_SSO_LOGIN_URL"
       ],
       "kind": "studio",
-      "surfaceId": "surface:f543b66602509e9365d4",
+      "surfaceId": "surface:b1e3b5e41a405e5cf3b6",
       "targetDirectory": "apps/studio"
     }
   ],
@@ -62,13 +61,18 @@
       "key": "SANITY_STUDIO_APP_ID",
       "provenance": [
         {
+          "line": 5,
+          "path": "apps/studio/.env.example",
+          "source": "existing-example"
+        },
+        {
           "line": 9,
           "path": "apps/studio/sanity.cli.ts",
           "source": "process-env-reference"
         }
       ],
       "surfaces": [
-        "surface:f543b66602509e9365d4"
+        "surface:b1e3b5e41a405e5cf3b6"
       ]
     },
     {
@@ -76,7 +80,7 @@
       "key": "SANITY_STUDIO_DATASET",
       "provenance": [
         {
-          "line": 5,
+          "line": 8,
           "path": "apps/studio/.env.example",
           "source": "existing-example"
         },
@@ -97,7 +101,7 @@
         }
       ],
       "surfaces": [
-        "surface:f543b66602509e9365d4"
+        "surface:b1e3b5e41a405e5cf3b6"
       ]
     },
     {
@@ -105,7 +109,7 @@
       "key": "SANITY_STUDIO_PROJECT_ID",
       "provenance": [
         {
-          "line": 8,
+          "line": 11,
           "path": "apps/studio/.env.example",
           "source": "existing-example"
         },
@@ -131,7 +135,31 @@
         }
       ],
       "surfaces": [
-        "surface:f543b66602509e9365d4"
+        "surface:b1e3b5e41a405e5cf3b6"
+      ]
+    },
+    {
+      "denied": false,
+      "key": "SANITY_STUDIO_SSO_LOGIN_URL",
+      "provenance": [
+        {
+          "line": 14,
+          "path": "apps/studio/.env.example",
+          "source": "existing-example"
+        },
+        {
+          "line": 15,
+          "path": "apps/studio/sanity.config.ts",
+          "source": "process-env-reference"
+        },
+        {
+          "line": 21,
+          "path": "apps/studio/sanity.config.ts",
+          "source": "process-env-reference"
+        }
+      ],
+      "surfaces": [
+        "surface:b1e3b5e41a405e5cf3b6"
       ]
     }
   ],
@@ -139,10 +167,10 @@
     "apps/studio/sanity.blueprint.ts"
   ],
   "kind": "baseline-attestation",
-  "planId": "plan:db07fe229bc054ead3b1",
-  "reportId": "report:d5c431da76e7386e5b92",
-  "resultingRepositoryHash": "09fe08d8e163319dbd19ccd9838bc9102c9a01f6e39774c6f8d3eef3cd90126c",
+  "planId": "plan:41442b3a0dc4dba971bb",
+  "reportId": "report:9015f9a497e3e67837db",
+  "resultingRepositoryHash": "8d89d78640c77e69cebdf5ef2c6482aedb1a2acd2cfeedcf7c1b3b56d021a2b7",
   "schemaVersion": 2,
-  "sourceInventoryId": "inventory:62763b556f517ccee9df",
-  "sourceRepositoryHash": "0d75674a328402b0752c949060ab37334d6a02ae489f6cf1e35ee83e403dd144"
+  "sourceInventoryId": "inventory:4addb966e004bb95f823",
+  "sourceRepositoryHash": "09fe08d8e163319dbd19ccd9838bc9102c9a01f6e39774c6f8d3eef3cd90126c"
 }
