@@ -1,27 +1,28 @@
 {
   "actionIds": [
     "action:054428bbde34d5c0dcd8",
-    "action:d7d6edb518675ecedb34",
+    "action:fa55a8f080bfa07c421e",
     "action:a69ad916937f4560a95d",
     "action:f9c0663309f473184b84",
     "action:a6ee96dafcd52422108c",
-    "action:feafc46230fa0214cbfa",
-    "action:5c69a864a545e4c0eab4",
-    "action:e290f2964900be11c9da",
-    "action:c5637144055b663b1b44",
-    "action:fc29d30f7fbedc8a346c",
+    "action:b4a11fe945512ad05a52",
+    "action:7eaf1dfc1701edc485f0",
+    "action:f2a12b9e58febf1afcae",
+    "action:c4f88a699683279b63b0",
+    "action:fa3f827ae449fb396bf4",
+    "action:0af9ac3fe4383fbf8dc5",
     "action:6ab58d7a65fdf776f7c2",
     "action:08ca076922c1887f9aad",
     "action:7634a1f7888a049ff09e"
   ],
-  "attestationId": "attestation:d042feef4d7f2a69425e",
-  "baselineDigest": "bb39bea4727794b8db75f8fc91996b19c12958f5564d716b8650bbc2ba61a972",
-  "baselineVersion": "2026.10.16.9",
+  "attestationId": "attestation:8bc3c13003dd13436b38",
+  "baselineDigest": "7a759b0a11a3866ea7216c45f802e30fa070a632210daa4012dff35c70b27f35",
+  "baselineVersion": "2026.10.16.14",
   "binding": {
     "defaultBranch": "main",
-    "defaultHeadSha": "b5e55c97d8bc3575048dd41d2cfd2215f4e7041b",
-    "normalizationHeadSha": "b5e55c97d8bc3575048dd41d2cfd2215f4e7041b",
-    "repository": "demo-repositories/fixture-kb-altovane"
+    "defaultHeadSha": "67f6a119f11f78a41fdefbf9cfb1b8b747c20b89",
+    "normalizationHeadSha": "67f6a119f11f78a41fdefbf9cfb1b8b747c20b89",
+    "repository": "sanity-labs/fixture-kb-altovane"
   },
   "canonicalSurfaces": {
     "sdkApps": [],
@@ -167,10 +168,10 @@
     "apps/studio/sanity.blueprint.ts"
   ],
   "kind": "baseline-attestation",
-  "planId": "plan:41442b3a0dc4dba971bb",
-  "reportId": "report:9015f9a497e3e67837db",
-  "resultingRepositoryHash": "8d89d78640c77e69cebdf5ef2c6482aedb1a2acd2cfeedcf7c1b3b56d021a2b7",
+  "planId": "plan:ce44abcea45083b71ac7",
+  "reportId": "report:dbe807f7bda4366256b1",
+  "resultingRepositoryHash": "50e7e37cf4c7fcc149514060812d3413376f9afd7ef4109bc88694a8363e89f3",
   "schemaVersion": 2,
-  "sourceInventoryId": "inventory:4addb966e004bb95f823",
-  "sourceRepositoryHash": "09fe08d8e163319dbd19ccd9838bc9102c9a01f6e39774c6f8d3eef3cd90126c"
+  "sourceInventoryId": "inventory:73e3ce07be2f7b829f16",
+  "sourceRepositoryHash": "8d89d78640c77e69cebdf5ef2c6482aedb1a2acd2cfeedcf7c1b3b56d021a2b7"
 }
